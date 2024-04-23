@@ -5,6 +5,6 @@ version: 0.0.0
 dependencies:
   - name: mysql
     repository: https://charts.bitnami.com/bitnami
-    version: 9.12.3
+    version: 9.16.3
     condition: mysql.enabled
 description: helm-bug
