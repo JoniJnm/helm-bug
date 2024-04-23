@@ -1,0 +1,10 @@
+apiVersion: v2
+name: helm-bug
+appVersion: 0.0.0
+version: 0.0.0
+dependencies:
+  - name: mysql
+    repository: https://charts.bitnami.com/bitnami
+    version: 9.12.3
+    condition: mysql.enabled
+description: helm-bug
